@@ -95,16 +95,17 @@
 
 
 
-  <meta name="description" content="新时代路上的搬砖工">
-<meta property="og:type" content="website">
-<meta property="og:title" content="再见我的凯鲁亚克">
-<meta property="og:url" content="https://xiao-yue1.github.io/xiaoyue.github.io/index.html">
+  <meta name="description" content="数据提取library(RODBC)library(tidyverse)library(openxlsx) 开始日期start_date&amp;lt;-‘2019-06-01’ 与mysql建立连接通道channel&amp;lt;-odbcConnect(‘mysql_data’,uid = ‘‘,pwd = ‘‘) 查看库中(即通道)所有表sqlTables(channel)################">
+<meta property="og:type" content="article">
+<meta property="og:title" content="日常数据提取及批量查看数据预测能力">
+<meta property="og:url" content="https://xiao-yue1.github.io/xiaoyue.github.io/2019/08/09/daima/index.html">
 <meta property="og:site_name" content="再见我的凯鲁亚克">
-<meta property="og:description" content="新时代路上的搬砖工">
+<meta property="og:description" content="数据提取library(RODBC)library(tidyverse)library(openxlsx) 开始日期start_date&amp;lt;-‘2019-06-01’ 与mysql建立连接通道channel&amp;lt;-odbcConnect(‘mysql_data’,uid = ‘‘,pwd = ‘‘) 查看库中(即通道)所有表sqlTables(channel)################">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-09T04:00:35.890Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="再见我的凯鲁亚克">
-<meta name="twitter:description" content="新时代路上的搬砖工">
+<meta name="twitter:title" content="日常数据提取及批量查看数据预测能力">
+<meta name="twitter:description" content="数据提取library(RODBC)library(tidyverse)library(openxlsx) 开始日期start_date&amp;lt;-‘2019-06-01’ 与mysql建立连接通道channel&amp;lt;-odbcConnect(‘mysql_data’,uid = ‘‘,pwd = ‘‘) 查看库中(即通道)所有表sqlTables(channel)################">
 
 
 
@@ -112,7 +113,7 @@
 
   
   
-  <link rel="canonical" href="https://xiao-yue1.github.io/xiaoyue.github.io/">
+  <link rel="canonical" href="https://xiao-yue1.github.io/xiaoyue.github.io/2019/08/09/daima/">
 
 
 
@@ -122,7 +123,7 @@
   };
 </script>
 
-  <title>再见我的凯鲁亚克</title>
+  <title>日常数据提取及批量查看数据预测能力 | 再见我的凯鲁亚克</title>
   
 
 
@@ -170,8 +171,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -342,9 +342,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -376,10 +376,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/xiaoyue.github.io/2019/08/09/daima/" class="post-title-link" itemprop="url">日常数据提取及批量查看数据预测能力</a>
+          <h1 class="post-title" itemprop="name headline">日常数据提取及批量查看数据预测能力
+
               
             
           </h1>
@@ -448,29 +446,34 @@
       
 
       
-        
-          
-            <p>
-              数据提取library(RODBC)library(tidyverse)library(openxlsx)
-开始日期start_date&lt;-‘2019-06-01’
-与mysql建立连接通道channel&lt;-odbcConnect(‘mysql_data’,uid = ‘‘,pwd = 
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/xiaoyue.github.io/2019/08/09/daima/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
+        <h1 id="数据提取"><a href="#数据提取" class="headerlink" title="数据提取"></a>数据提取</h1><p>library(RODBC)<br>library(tidyverse)<br>library(openxlsx)</p>
+<h1 id="开始日期"><a href="#开始日期" class="headerlink" title="开始日期"></a>开始日期</h1><p>start_date&lt;-‘2019-06-01’</p>
+<h1 id="与mysql建立连接通道"><a href="#与mysql建立连接通道" class="headerlink" title="与mysql建立连接通道"></a>与mysql建立连接通道</h1><p>channel&lt;-odbcConnect(‘mysql_data’,uid = ‘<strong><em>‘,pwd = ‘</em></strong>‘)</p>
+<h1 id="查看库中-即通道-所有表"><a href="#查看库中-即通道-所有表" class="headerlink" title="查看库中(即通道)所有表"></a>查看库中(即通道)所有表</h1><h1 id="sqlTables-channel"><a href="#sqlTables-channel" class="headerlink" title="sqlTables(channel)"></a>sqlTables(channel)</h1><h6 id><a href="#" class="headerlink" title="#"></a>#</h6><h6 id="part1-贷后数据"><a href="#part1-贷后数据" class="headerlink" title="##################part1:贷后数据"></a>##################part1:贷后数据</h6><h6 id="-1"><a href="#-1" class="headerlink" title="#"></a>#</h6><h1 id="读取库中-即通道-中的贷后表现表。类似于复制粘贴"><a href="#读取库中-即通道-中的贷后表现表。类似于复制粘贴" class="headerlink" title="读取库中(即通道)中的贷后表现表。类似于复制粘贴"></a>读取库中(即通道)中的贷后表现表。类似于复制粘贴</h1><h1 id="data-lt-sqlFetch-channel-sqtable-‘cl-repay-recall-loan-detail’"><a href="#data-lt-sqlFetch-channel-sqtable-‘cl-repay-recall-loan-detail’" class="headerlink" title="data&lt;-sqlFetch(channel,sqtable = ‘cl_repay_recall_loan_detail’)"></a>data&lt;-sqlFetch(channel,sqtable = ‘cl_repay_recall_loan_detail’)</h1><h1 id="对库中的贷后表现表，进行查询"><a href="#对库中的贷后表现表，进行查询" class="headerlink" title="对库中的贷后表现表，进行查询."></a>对库中的贷后表现表，进行查询.</h1><p>options(stringsAsFactors = F)<br>str&lt;-paste(“select<br>  t1.*<br> ,case when t1.extension_type is null or t1.extension_type =’’ then t1.repay_state<br>       when t1.extension_type  = ‘逾前展期’  then ‘正常还款’<br>       when t1.extension_type  = ‘逾后展期’  then ‘逾期结清’<br>       when t1.extension_type  = ‘逾前延期’  and t1.repay_state = ‘逾期未还’  then ‘逾期未还’<br>       when t1.extension_type  = ‘逾前延期’  and t1.repay_state = ‘逾期结清’  then ‘逾期结清’<br>       when t1.extension_type  = ‘逾前延期’  then ‘正常还款’<br>       when t1.extension_type  = ‘逾后延期’ and  t1.repay_state = ‘逾期未还’  then ‘逾期未还’<br>       when t1.extension_type  = ‘逾后延期’ and  t1.repay_state = ‘逾期结清’  then ‘逾期结清’<br>       when t1.extension_type  = ‘逾后延期’  then ‘正常还款’<br>  else  ‘’ end as repay_state_tj<br>from (<br>  select<br>  riskcontrol_match_id<br> ,order_no<br> ,fy_system_sn<br> ,user_id<br> ,user_name<br> ,user_id_card<br> ,phone_nm<br> ,device_type<br> ,product_code<br> ,case when user_type = ‘new’ then ‘首借’<br>       when  user_type = ‘old’ then ‘复借’<br>     else  ‘’  end  as  user_type<br> ,channel_code<br> ,channel_name<br> ,strategybranch_id<br> ,strategybranch_name<br> ,from_unixtime(borrow_time,’%Y-%m-%d’) as borrow_time<br> ,from_unixtime(real_recive_time,’%Y-%m-%d’) as real_recive_time<br> ,from_unixtime(original_real_recive_time,’%Y-%m-%d’) as original_real_recive_time<br> ,from_unixtime(plan_repay_time,’%Y-%m-%d’) as plan_repay_time<br> ,from_unixtime(real_repay_time,’%Y-%m-%d’) as real_repay_time<br> ,penalty_day<br> ,from_unixtime(extension_begin_time,’%Y-%m-%d’) as extension_begin_time<br> ,extension_cnt<br> ,case when extension_type = ‘1’ then ‘逾前展期’<br>       when extension_type = ‘2’ then ‘逾前延期’<br>       when extension_type = ‘3’ then ‘逾后展期’<br>       when extension_type = ‘4’ then ‘逾后延期’<br>    else ‘’ end as extension_type<br> ,from_unixtime(extension_plan_repay_time,’%Y-%m-%d’) as extension_plan_repay_time<br> ,from_unixtime(extension_real_repay_time,’%Y-%m-%d’) as extension_real_repay_time<br> ,extension_penalty_day<br> ,repay_phase_num<br> ,phase_num<br> ,borrow_term_unit<br> ,borrow_term<br> ,borrow_amount<br> ,real_recive_amount<br> ,case when repay_state = ‘30’ then ‘未到期’<br>       when repay_state = ‘35’ then ‘已展期’<br>       when repay_state = ‘39’ then ‘提前还款’<br>       when repay_state = ‘40’ then ‘正常还款’<br>       when repay_state = ‘45’ then ‘逾期结清’<br>       when repay_state = ‘50’ then ‘逾期未还’<br>      else ‘’ end as repay_state<br> ,case when extension_repay_state = ‘30’ then ‘展期未到期’<br>       when extension_repay_state = ‘35’ then ‘二次展期’<br>       when extension_repay_state = ‘39’ then ‘展期提前还款’<br>       when extension_repay_state = ‘40’ then ‘展期正常还款’<br>       when extension_repay_state = ‘45’ then ‘展期逾期结清’<br>       when extension_repay_state = ‘50’ then ‘展期逾期未还’<br>      else ‘’ end as extension_repay_state<br> ,repay_amount<br> ,fy_merchant_id<br> ,fy_merchant_name<br>from cl_repay_recall_loan_detail<br>  where order_no  is not null  and order_no != ‘’<br>  ) t1<br>  where t1.original_real_recive_time &gt;= “,”‘“,start_date,”‘“,sep=’’)</p>
+<h1 id="贷后数据查询"><a href="#贷后数据查询" class="headerlink" title="贷后数据查询"></a>贷后数据查询</h1><p>data&lt;-sqlQuery(channel,str)</p>
+<h1 id="按照商户名称、原始逾期状态进行计数"><a href="#按照商户名称、原始逾期状态进行计数" class="headerlink" title="按照商户名称、原始逾期状态进行计数"></a>按照商户名称、原始逾期状态进行计数</h1><p>show_data&lt;-data%&gt;%filter(as.Date(original_real_recive_time,’%Y-%m-%d’)<sys.date())%>%<br>  select(original_real_recive_time,repay_state_tj,fy_merchant_name,fy_system_sn)%&gt;%<br>  group_by(fy_merchant_name,repay_state_tj)%&gt;%count(repay_state_tj)</sys.date())%></p>
+<h1 id="对商户名称中NA缺失数据，更改为字符型NA"><a href="#对商户名称中NA缺失数据，更改为字符型NA" class="headerlink" title="对商户名称中NA缺失数据，更改为字符型NA"></a>对商户名称中NA缺失数据，更改为字符型NA</h1><p>show_data$fy_merchant_name[which(is.na(show_data$fy_merchant_name),)]&lt;-‘NA’</p>
+<h1 id="对原始逾期状态为空的缺失数据，更改为字符空白"><a href="#对原始逾期状态为空的缺失数据，更改为字符空白" class="headerlink" title="对原始逾期状态为空的缺失数据，更改为字符空白"></a>对原始逾期状态为空的缺失数据，更改为字符空白</h1><p>show_data$repay_state_tj[which(show_data$repay_state_tj==””,)]&lt;-‘空白’</p>
+<h1 id="对show-data行列转换"><a href="#对show-data行列转换" class="headerlink" title="对show_data行列转换"></a>对show_data行列转换</h1><p>show_data_trans&lt;-tapply(show_data$n,list(show_data$fy_merchant_name,show_data$repay_state_tj),sum)<br>show_data_trans</p>
+<h1 id="贷后数据导出"><a href="#贷后数据导出" class="headerlink" title="贷后数据导出"></a>贷后数据导出</h1><h1 id="创建列表，包含导出的两个sheet表"><a href="#创建列表，包含导出的两个sheet表" class="headerlink" title="创建列表，包含导出的两个sheet表"></a>创建列表，包含导出的两个sheet表</h1><p>v&lt;-list(‘贷后数据源’=data,’贷后展示’=as.data.frame(show_data_trans))</p>
+<h1 id="数据导出"><a href="#数据导出" class="headerlink" title="数据导出"></a>数据导出</h1><p>nn&lt;-paste(‘D:/数据质量/R输出结果/贷后数据’,Sys.Date(),’.xlsx’,sep = ‘’)<br>write.xlsx(v,file = nn,asTable = c(T,T),withFilter=c(T,T),colwiths=c(‘auto’,’auto’),row.names=T)</p>
+<h6 id="-2"><a href="#-2" class="headerlink" title="#"></a>#</h6><h6 id="part2-贷前数据"><a href="#part2-贷前数据" class="headerlink" title="##################part2:贷前数据"></a>##################part2:贷前数据</h6><h6 id="-3"><a href="#-3" class="headerlink" title="#"></a>#</h6><h1 id="贷前查询代码"><a href="#贷前查询代码" class="headerlink" title="贷前查询代码"></a>贷前查询代码</h1><p>str2&lt;-paste(“select fy_system_sn<br>   ,user_id<br>   ,user_name<br>   ,user_id_card<br>   ,phone_nm<br>   ,device_type<br>   ,product_code<br>   ,case when user_type = ‘new’ then ‘首借’<br>         when user_type = ‘old’ then ‘复借’<br>    else  ‘未判定’ end as user_type<br>   ,channel_code<br>   ,channel_name<br>   ,strategybranch_id<br>   ,strategybranch_name<br>   ,from_unixtime(borrow_time,’%Y-%m-%d’) as borrow_time<br>   ,from_unixtime(risk_begin_time,’%Y-%m-%d’) as risk_begin_time<br>   ,from_unixtime(real_recive_time,’%Y-%m-%d’) as real_recive_time<br>   ,borrow_amount<br>   ,real_recive_amount<br>   ,case when risk_audit_result = ‘ACCEPT’ then ‘通过’<br>         when risk_audit_result = ‘REJECT’ then ‘拒绝’<br>         when risk_audit_result = ‘REVIEW’ then ‘复审’<br>    else ‘’ end as risk_audit_result<br>   ,case when manual_audit_result = ‘0’   then ‘未认证’<br>         when manual_audit_result = ‘10’  then ‘申请’<br>         when manual_audit_result = ‘20’  then ‘通过’<br>         when manual_audit_result = ‘30’  then ‘驳回’<br>         when manual_audit_result = ‘40’  then ‘拒绝’<br>    else ‘’ end as manual_audit_result<br>   ,case when risk_audit_result = ‘REJECT’ or manual_audit_result = ‘40’ then ‘拒绝’<br>         when risk_audit_result = ‘ACCEPT’ or manual_audit_result = ‘20’ then ‘通过’<br>         when risk_audit_result = ‘REVIEW’ and manual_audit_result = ‘0’ then ‘人工未认证’<br>         when risk_audit_result = ‘REVIEW’ and manual_audit_result = ‘10’  then ‘申请’<br>         when risk_audit_result = ‘REVIEW’ and manual_audit_result = ‘30’  then ‘驳回’<br>     else ‘’   end as final_audit_result<br>   ,fy_merchant_id<br>   ,fy_merchant_name<br>    from cl_property_apply_info<br>   where borrow_time &gt;= “,”‘“,start_date,”‘“,sep=’’)</p>
+<h1 id="与mysql建立连接通道-1"><a href="#与mysql建立连接通道-1" class="headerlink" title="与mysql建立连接通道"></a>与mysql建立连接通道</h1><p>channel&lt;-odbcConnect(‘mysql_data’,uid = ‘zhaolei’,pwd = ‘fm123456’)</p>
+<h1 id="贷前数据查询"><a href="#贷前数据查询" class="headerlink" title="贷前数据查询"></a>贷前数据查询</h1><p>dq_data&lt;-sqlQuery(channel,str2)</p>
+<h1 id="按照商户名称、机审结果进行计数"><a href="#按照商户名称、机审结果进行计数" class="headerlink" title="按照商户名称、机审结果进行计数"></a>按照商户名称、机审结果进行计数</h1><p>dq_show_data&lt;-dq_data%&gt;%select(fy_merchant_name,risk_audit_result,fy_system_sn)%&gt;%<br>  group_by(fy_merchant_name,risk_audit_result)%&gt;%count(risk_audit_result)</p>
+<h1 id="对商户名称中NA和缺失数据，更改为字符型NA"><a href="#对商户名称中NA和缺失数据，更改为字符型NA" class="headerlink" title="对商户名称中NA和缺失数据，更改为字符型NA"></a>对商户名称中NA和缺失数据，更改为字符型NA</h1><p>dq_show_data$fy_merchant_name[which(is.na(dq_show_data$fy_merchant_name),)]&lt;-‘NA’<br>dq_show_data$fy_merchant_name[which(dq_show_data$fy_merchant_name==’’,)]&lt;-‘NA’</p>
+<h1 id="对原始逾期状态为空的缺失数据，更改为字符空白-1"><a href="#对原始逾期状态为空的缺失数据，更改为字符空白-1" class="headerlink" title="对原始逾期状态为空的缺失数据，更改为字符空白"></a>对原始逾期状态为空的缺失数据，更改为字符空白</h1><p>dq_show_data$risk_audit_result[which(is.na(dq_show_data$risk_audit_result),)]&lt;-‘空白’<br>dq_show_data$risk_audit_result[which(dq_show_data$risk_audit_result==’’,)]&lt;-‘空白’</p>
+<h1 id="对dq-show-data行列转换"><a href="#对dq-show-data行列转换" class="headerlink" title="对dq_show_data行列转换"></a>对dq_show_data行列转换</h1><p>dq_show_data_trans&lt;-tapply(dq_show_data$n,list(dq_show_data$fy_merchant_name,dq_show_data$risk_audit_result),sum)</p>
+<h1 id="贷前数据导出"><a href="#贷前数据导出" class="headerlink" title="贷前数据导出"></a>贷前数据导出</h1><h1 id="创建列表，包含导出的两个sheet表-1"><a href="#创建列表，包含导出的两个sheet表-1" class="headerlink" title="创建列表，包含导出的两个sheet表"></a>创建列表，包含导出的两个sheet表</h1><p>l&lt;-list(‘贷前数据源’=dq_data,’贷前展示’=as.data.frame(dq_show_data_trans))</p>
+<h1 id="数据导出-1"><a href="#数据导出-1" class="headerlink" title="数据导出"></a>数据导出</h1><p>nn1&lt;-paste(‘D:/数据质量/R输出结果/贷前数据’,Sys.Date(),’.xlsx’,sep = ‘’)<br>write.xlsx(l,file = nn1,asTable = c(T,T),withFilter=c(T,T),colwiths=c(‘auto’,’auto’),row.names=T)</p>
+
       
     </div>
 
     
 
+    
+      
     
 
     
@@ -490,199 +493,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://xiao-yue1.github.io/xiaoyue.github.io/xiaoyue.github.io/2019/08/08/ping/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="岳潇">
-      <meta itemprop="description" content="新时代路上的搬砖工">
-      <meta itemprop="image" content="/xiaoyue.github.io/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="再见我的凯鲁亚克">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/xiaoyue.github.io/2019/08/08/ping/" class="post-title-link" itemprop="url">基于逻辑回归评分卡模型开发及实现.html</a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-08 20:17:18" itemprop="dateCreated datePublished" datetime="2019-08-08T20:17:18+08:00">2019-08-08</time>
-            </span>
-          
-
-          
+              <a href="/xiaoyue.github.io/2019/08/08/ping/" rel="next" title="基于逻辑回归评分卡模型开发及实现.html">
+                <i class="fa fa-chevron-left"></i> 基于逻辑回归评分卡模型开发及实现.html
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-08-09 09:23:57" itemprop="dateModified" datetime="2019-08-09T09:23:57+08:00">2019-08-09</time>
-              </span>
-            
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/xiaoyue.github.io/categories/评分卡/" itemprop="url" rel="index"><span itemprop="name">评分卡</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>
-              1 信用风险评级模型的类型1.1 信用风险计量体系的主体评级模型分类信用风险计量体系的主体评级模型可用四张卡来表示，分别为A卡、B卡、C卡和F卡。
-
-A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选并判断其违约风险；严格来讲，预测该申请客户在未来一段时间发生违约的概率；
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/xiaoyue.github.io/2019/08/08/ping/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -692,14 +524,15 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -719,8 +552,17 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -807,6 +649,23 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据提取"><span class="nav-number">1.</span> <span class="nav-text">数据提取</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#开始日期"><span class="nav-number">2.</span> <span class="nav-text">开始日期</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#与mysql建立连接通道"><span class="nav-number">3.</span> <span class="nav-text">与mysql建立连接通道</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#查看库中-即通道-所有表"><span class="nav-number">4.</span> <span class="nav-text">查看库中(即通道)所有表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sqlTables-channel"><span class="nav-number">5.</span> <span class="nav-text">sqlTables(channel)</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#null"><span class="nav-number">5.0.0.0.0.1.</span> <span class="nav-text">#</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#part1-贷后数据"><span class="nav-number">5.0.0.0.0.2.</span> <span class="nav-text">##################part1:贷后数据</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#-1"><span class="nav-number">5.0.0.0.0.3.</span> <span class="nav-text">#</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#读取库中-即通道-中的贷后表现表。类似于复制粘贴"><span class="nav-number">6.</span> <span class="nav-text">读取库中(即通道)中的贷后表现表。类似于复制粘贴</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#data-lt-sqlFetch-channel-sqtable-‘cl-repay-recall-loan-detail’"><span class="nav-number">7.</span> <span class="nav-text">data&lt;-sqlFetch(channel,sqtable = ‘cl_repay_recall_loan_detail’)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对库中的贷后表现表，进行查询"><span class="nav-number">8.</span> <span class="nav-text">对库中的贷后表现表，进行查询.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#贷后数据查询"><span class="nav-number">9.</span> <span class="nav-text">贷后数据查询</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#按照商户名称、原始逾期状态进行计数"><span class="nav-number">10.</span> <span class="nav-text">按照商户名称、原始逾期状态进行计数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对商户名称中NA缺失数据，更改为字符型NA"><span class="nav-number">11.</span> <span class="nav-text">对商户名称中NA缺失数据，更改为字符型NA</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对原始逾期状态为空的缺失数据，更改为字符空白"><span class="nav-number">12.</span> <span class="nav-text">对原始逾期状态为空的缺失数据，更改为字符空白</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对show-data行列转换"><span class="nav-number">13.</span> <span class="nav-text">对show_data行列转换</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#贷后数据导出"><span class="nav-number">14.</span> <span class="nav-text">贷后数据导出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#创建列表，包含导出的两个sheet表"><span class="nav-number">15.</span> <span class="nav-text">创建列表，包含导出的两个sheet表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据导出"><span class="nav-number">16.</span> <span class="nav-text">数据导出</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#-2"><span class="nav-number">16.0.0.0.0.1.</span> <span class="nav-text">#</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#part2-贷前数据"><span class="nav-number">16.0.0.0.0.2.</span> <span class="nav-text">##################part2:贷前数据</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#-3"><span class="nav-number">16.0.0.0.0.3.</span> <span class="nav-text">#</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#贷前查询代码"><span class="nav-number">17.</span> <span class="nav-text">贷前查询代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#与mysql建立连接通道-1"><span class="nav-number">18.</span> <span class="nav-text">与mysql建立连接通道</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#贷前数据查询"><span class="nav-number">19.</span> <span class="nav-text">贷前数据查询</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#按照商户名称、机审结果进行计数"><span class="nav-number">20.</span> <span class="nav-text">按照商户名称、机审结果进行计数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对商户名称中NA和缺失数据，更改为字符型NA"><span class="nav-number">21.</span> <span class="nav-text">对商户名称中NA和缺失数据，更改为字符型NA</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对原始逾期状态为空的缺失数据，更改为字符空白-1"><span class="nav-number">22.</span> <span class="nav-text">对原始逾期状态为空的缺失数据，更改为字符空白</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对dq-show-data行列转换"><span class="nav-number">23.</span> <span class="nav-text">对dq_show_data行列转换</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#贷前数据导出"><span class="nav-number">24.</span> <span class="nav-text">贷前数据导出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#创建列表，包含导出的两个sheet表-1"><span class="nav-number">25.</span> <span class="nav-text">创建列表，包含导出的两个sheet表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据导出-1"><span class="nav-number">26.</span> <span class="nav-text">数据导出</span></a></li></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -931,6 +790,10 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
 
 
   
+  <script src="/xiaoyue.github.io/js/scrollspy.js?v=7.2.0"></script>
+<script src="/xiaoyue.github.io/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/xiaoyue.github.io/js/next-boot.js?v=7.2.0"></script>
 
@@ -944,6 +807,8 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
 
   
 
+
+  
 
 
   
@@ -1280,55 +1145,7 @@ A卡，又称申请评分卡(Applicationscore)，对新贷款申请进行筛选�
 
   
   
-    
-      
-    
-      
-        
-      
-    
-  
 
-  
-    
-      <script type="text/x-mathjax-config">
-  
-
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-      
-      equationNumbers: {
-        autoNumber: 'AMS'
-      }
-    }
-  });
-  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
-    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
-      if (data.display) {
-        var next = data.script.nextSibling;
-        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
-        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
-      }
-    });
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i = 0; i < all.length; i += 1) {
-      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
-    }
-  });
-</script>
-<script src="//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    
   
 
 
